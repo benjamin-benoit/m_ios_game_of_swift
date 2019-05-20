@@ -10,6 +10,7 @@
 		3257C5F9BD42FB0353BF58F3 /* Pods_m_ios_game_of_swift.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D57B2DBC6E12B1E99E5F78F8 /* Pods_m_ios_game_of_swift.framework */; };
 		420C35B82292B14A0074DEF0 /* APIHandler.swift in Sources */ = {isa = PBXBuildFile; fileRef = 420C35B72292B14A0074DEF0 /* APIHandler.swift */; };
 		420C35BA2292DC320074DEF0 /* HouseCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 420C35B92292DC320074DEF0 /* HouseCell.swift */; };
+		420C35BC2292E4FC0074DEF0 /* CharacterCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 420C35BB2292E4FC0074DEF0 /* CharacterCell.swift */; };
 		4263D79522927ECA0083BE89 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4263D79422927ECA0083BE89 /* AppDelegate.swift */; };
 		4263D79722927ECA0083BE89 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4263D79622927ECA0083BE89 /* ViewController.swift */; };
 		4263D79A22927ECA0083BE89 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4263D79822927ECA0083BE89 /* Main.storyboard */; };
@@ -25,6 +26,7 @@
 		16F994258C008BF21EDD2617 /* Pods-m_ios_game_of_swift.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-m_ios_game_of_swift.release.xcconfig"; path = "Target Support Files/Pods-m_ios_game_of_swift/Pods-m_ios_game_of_swift.release.xcconfig"; sourceTree = "<group>"; };
 		420C35B72292B14A0074DEF0 /* APIHandler.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = APIHandler.swift; sourceTree = "<group>"; };
 		420C35B92292DC320074DEF0 /* HouseCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HouseCell.swift; sourceTree = "<group>"; };
+		420C35BB2292E4FC0074DEF0 /* CharacterCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CharacterCell.swift; sourceTree = "<group>"; };
 		4263D79122927ECA0083BE89 /* m_ios_game_of_swift.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = m_ios_game_of_swift.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		4263D79422927ECA0083BE89 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		4263D79622927ECA0083BE89 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -85,6 +87,7 @@
 				4263D7AC22929F8E0083BE89 /* House.swift */,
 				420C35B72292B14A0074DEF0 /* APIHandler.swift */,
 				420C35B92292DC320074DEF0 /* HouseCell.swift */,
+				420C35BB2292E4FC0074DEF0 /* CharacterCell.swift */,
 			);
 			path = m_ios_game_of_swift;
 			sourceTree = "<group>";
@@ -232,6 +235,7 @@
 				4263D7A9229280EA0083BE89 /* CharactersViewController.swift in Sources */,
 				4263D7A722927F050083BE89 /* HousesViewController.swift in Sources */,
 				420C35BA2292DC320074DEF0 /* HouseCell.swift in Sources */,
+				420C35BC2292E4FC0074DEF0 /* CharacterCell.swift in Sources */,
 				4263D79722927ECA0083BE89 /* ViewController.swift in Sources */,
 				420C35B82292B14A0074DEF0 /* APIHandler.swift in Sources */,
 				4263D7AD22929F8E0083BE89 /* House.swift in Sources */,
