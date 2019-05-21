@@ -13,8 +13,8 @@ class CharacterCell: UITableViewCell {
     @IBOutlet weak var nameLabel: UILabel!
     @IBOutlet weak var actorLabel: UILabel!
     
-    func configure(withHouse house: House) {
-        nameLabel.text = house.name
-        wordsLabel .text = house.words
+    func configure(withCharacter character: Character) {
+        nameLabel.text = character.name
+        actorLabel.text = character.actor
     }
 }

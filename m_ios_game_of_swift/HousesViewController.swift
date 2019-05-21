@@ -63,10 +63,9 @@ class HousesViewController: UIViewController, UITableViewDataSource {
     
     override func prepare(for segue: UIStoryboardSegue, sender: Any?) {
 
-        if (segue.identifier == "PokemonDetailsSegue") {
-            if let pokemonDetailsViewController =  segue.destination as? PokemonDetailsViewController, let indexPathSelected = tableView.indexPathForSelectedRow {
-                pokemonDetailsViewController.pokemonUrl = String(pokedex?.pokemonEntries[indexPathSelected.row].pokemonSpecies.url ?? "")
-                tableView.deselectRow(at: indexPathSelected, animated: false)
+        if (segue.identifier == "CharactersSegue") {
+            if let charactersVC =  segue.destination as? CharactersViewController, let indexPathSelected = tableView.indexPathForSelectedRow {
+                charactersVC.houseName = houses[indexPathSelected.row].name
             }
         }
     }
